@@ -1,4 +1,44 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   background-color: #E5E5E5;
+}
+
+.main-header {
+  position: absolute;
+  width: 360px;
+  height: 264px;
+  left: 0px;
+  top: 0px;
+  background: #422755;
+}
+
+.main-header .title {
+  /* Tarefas a fazer */
+  position: absolute;
+  width: 279px;
+  height: 33px;
+  left: 40px;
+  top: 73px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main-header .subtitle {
+  position: absolute;
+  width: 272px;
+  height: 44px;
+  left: 44px;
+  top: 127px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */

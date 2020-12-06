@@ -1,7 +1,10 @@
 $backgroud-color: #E5E5E5;
 $primary-color: #422755;
 $secondary-color: #FEAF3D;
+$text-color: #FFFFFF;
 
 body {
+  font-family: 'Open Sans', sans-serif;
+  // position: absolute;
   background-color: $backgroud-color;
 }
