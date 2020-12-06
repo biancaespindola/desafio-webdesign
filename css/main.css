@@ -41,4 +41,34 @@ body {
   text-align: center;
   color: #FFFFFF;
 }
+
+.task-panel .search-header {
+  position: absolute;
+  width: 344px;
+  height: 146px;
+  left: 8px;
+  top: 309px;
+  background: #FEAF3D;
+  border-radius: 8px;
+}
+
+.task-panel .search-header .search-form {
+  position: absolute;
+  width: 276px;
+  height: 34px;
+  left: 25px;
+  top: 338px;
+  background: #FFFFFF;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.task-panel .search-header .search-button {
+  position: absolute;
+  width: 69px;
+  height: 34px;
+  left: 267px;
+  top: 338px;
+  background: #422755;
+  border-radius: 8px;
+}
 /*# sourceMappingURL=main.css.map */
