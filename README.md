@@ -6,4 +6,4 @@
 
 > Implementação da estrutura:
 
-1. Comecei usando o método 'mobile firt'
+1. Comecei usando o método 'mobile first'
