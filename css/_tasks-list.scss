@@ -1,0 +1,78 @@
+.tasks-list {
+  .task {
+    // position: absolute;
+    // width: 210px;
+    // height: 340px;
+    // left: 10px;
+    // top: 712px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 14px;
+    // transform: rotate(-90deg);
+
+    .task-image {
+       position: absolute;
+      // width: 258.94px;
+      // height: 190.64px;
+      // left: -43.73px;
+      // top: 512.16px;
+    }
+
+    .task-description {
+      // vai precisar ocupar o mesmo espaço que a imagem 
+      .task-name {
+        // position: absolute;
+        // width: 110px;
+        // height: 19px;
+        // left: 180px;
+        // top: 519px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #414141;
+      }
+
+      .task-details{
+        // position: absolute;
+        // width: 147px;
+        // height: 62px;
+        // left: 181px;
+        // top: 543px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+
+        color: #000000;
+      }
+
+      .task-deadline {
+        // position: absolute;
+        // width: 89px;
+        // height: 25px;
+        // left: 181px;
+        // top: 612px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: #000000;
+
+        .date {
+          color: coral;
+        }
+      }
+    }
+  }
+}

@@ -30,7 +30,7 @@
     </header>
 
     <section class="task-panel">
-      <header class="search-header">
+      <div class="search-header">
         <form class="search-form">
           <input
             type="text"
@@ -44,7 +44,7 @@
           <option value="relevance">Prazo</option>
           <option value="ascPrice">Data de inclusão</option>
         </select>
-      </header>
+      </div>
 
       <section class="tasks-list">
         <!-- first task -->
@@ -61,22 +61,22 @@
               Descrição da tarefa, o que deve ser feito e muitas informações que
               explicam melhor do que se trata.
             </p>
-            <div class="task-deadline">Prazo: 00/00/00</div>
+            <div class="task-deadline">Prazo: <strong class="date">00/00/00</strong></div>
           </div>
           <button class="task-status-button">Concluir</button>
           <div class="task-date">Data de inclusão: há 2 semanas</div>
         </div>
         <!-- second task -->
-        <div>
-          <div class="task">
-            <img class="task-image"
+        <div class="task">
+          <div class="task-image">
+            <img 
               src="https://www.linx.com.br/app/uploads/2020/06/4fe0cc43-4a4e-401e-a301-0a2e3f15041e.jpg"
             />
           </div>
           <div class="task-description">
             <h3 class="task-name">Nome da tarefa</h3>
             <p class="task-details">Descrição da tarefa, o que deve ser feito.</p>
-            <div class="task-deadline">Prazo: 00/00/00</div>
+            <div class="task-deadline">Prazo: <strong class="date">00/00/00</strong></div>
           </div>
           <button class="task-status-button">Concluir</button>
           <div class="task-date">Data de inclusão: há 2 semanas</div>
@@ -94,7 +94,7 @@
               Descrição da tarefa, o que deve ser feito e muitas informações que
               explicam melhor do que se trata.
             </p>
-            <div class="task-deadline">Prazo: 00/00/00</div>
+            <div class="task-deadline">Prazo: <strong class="date">00/00/00</strong> </div>
           </div>
           <button class="task-status-button">Concluir</button>
           <div class="task-date">Data de inclusão: há 2 semanas</div>
@@ -120,28 +120,37 @@
     </section>
 
     <section class="about-linx">
-      <img class="about-logo"
-        src="https://www.linx.com.br/app/themes/linx/crystals/dist/assets/static/logo.png"
-      />
-      <p class="about-description">
-        A Linx é uma empresa brasileira especialista em tecnologia para o
-        varejo. Líder no mercado de software de gestão, com 45,6% de market
-        share do mercado varejista, conforme atesta o IDC. Toda a expertise da
-        Linx na jornada de compra é transformada em insights fundamentais para
-        atingir o que os varejistas mais esperam: fidelizar seus consumidores e
-        atingir resultados concretos e relevantes. Com capital aberto na B3
-        desde 2013, a Linx também se tornou a primeira empresa brasileira de
-        software com capital aberto na NYSE, em 2019. A empresa possui mais de
-        3,5 mil colaboradores distribuídos entre sua sede em São Paulo, 15
-        filiais pelo Brasil e 5 países da América. Para saber mais, acesse
-        linx.com.br/imprensa.
-      </p>
+      <div class="about-logo"> 
+        <img 
+          src="https://www.linx.com.br/app/themes/linx/crystals/dist/assets/static/logo.png"
+        />
+      </div>
+      <div class="about-description">
+        <p>
+          A Linx é uma empresa brasileira especialista em tecnologia para o
+          varejo. Líder no mercado de software de gestão, com 45,6% de market
+          share do mercado varejista, conforme atesta o IDC. 
+        </p>
+        <p>  
+          Toda a expertise da Linx na jornada de compra é transformada em insights fundamentais para
+          atingir o que os varejistas mais esperam: fidelizar seus consumidores e
+          atingir resultados concretos e relevantes. 
+        </p> 
+        <p>
+          Com capital aberto na B3
+          desde 2013, a Linx também se tornou a primeira empresa brasileira de
+          software com capital aberto na NYSE, em 2019. A empresa possui mais de
+          3,5 mil colaboradores distribuídos entre sua sede em São Paulo, 15
+          filiais pelo Brasil e 5 países da América. Para saber mais, acesse
+          linx.com.br/imprensa.
+        </p>
+      </div>
     </section>
 
 
     <footer class="footer">
       <div class="content">
-        <p>Testando suas habilidades em HTML e CSS. <strong>Linx Impulse 2020</strong> </p>
+        <p>Testando suas habilidades em HTML e CSS. <strong class="name-linx">Linx Impulse 2020</strong> </p>
       </div>
     </footer>
     <!-- scripts -->
